@@ -1,0 +1,105 @@
+header {
+    border-bottom: solid 0.1rem;
+    border-bottom-color:darkmagenta;
+}
+.nav-content .list-content {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.nav-content ul li{
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-content a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+#Home {
+    border-bottom: solid 0.1rem;
+    border-bottom-color:darkmagenta;
+    margin-top: 25px;
+}
+#Home h1 {
+    justify-content: center;
+    display: flex;
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#Home h3 {
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    font-weight: 300;
+}
+#Sobre {
+    border-bottom: solid 0.1rem;
+    border-bottom-color: darkmagenta;
+    margin-top: 50px;
+}
+#Sobre h2 {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline solid 0rem;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+#Sobre img {
+    border-radius: 50%;
+    margin-left: 50px;
+    width: 300px;
+    border: solid 0.15rem;
+}
+.art-content {
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.art-content p {
+    font-size: 20px;
+    font-weight: 300;
+}
+.form-content {
+    margin-top: 50px;
+}
+.form-content h3 {
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline solid 0rem;
+    margin-left: 25px;
+}
+.form-content h4 {
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 35px;
+    margin-bottom: 15px;
+}
+.form-content span {
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 35px;
+}
+.cursos-content {
+    margin-top: 50px;
+}
+.cursos-content h3 {
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline solid 0rem;
+    margin-left: 25px;
+}
+.cursos-content ul {
+    list-style: none;
+    margin-left: 35px;
+}
