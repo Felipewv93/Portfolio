@@ -1,6 +1,17 @@
+:root {
+    --color1: #282A36;
+    --color2: #F8F8F2;
+    --color3: #8BE9FD;
+    --color4: #BD93F9;
+    --color5: #50FA7B;
+    --color6: #FF79C6;
+}
+body {
+    background-color: var(--color1);
+}
 header {
     border-bottom: solid 0.1rem;
-    border-bottom-color:darkmagenta;
+    border-bottom-color: var(--color6);
 }
 main h2 {
     font-size: 35px;
@@ -9,7 +20,7 @@ main h2 {
     text-decoration: underline solid 0rem;
     margin-left: 25px;
     margin-bottom: 50px;
-    color: darkmagenta;
+    color: var(--color6);
 }
 main h3 {
     font-size: 30px;
@@ -19,6 +30,7 @@ main h3 {
     margin-left: 25px;
     margin-bottom: 35px;
     margin-top: 75px;
+    color: var(--color6);
 }
 .nav-content .list-content {
     display: flex;
@@ -27,6 +39,7 @@ main h3 {
     margin-top: 25px;
     margin-right: 25px;
     margin-bottom: 25px;
+    color: var(--color4);
 }
 .nav-content ul li{
     display: inline-flex;
@@ -37,11 +50,11 @@ main h3 {
     text-decoration: none;
     font-size: 17px;
     font-weight: 500;
+    color: var(--color4);
 }
 #Home {
     border-bottom: solid 0.1rem;
-    border-bottom-color:darkmagenta;
-    margin-top: 25px;
+    border-bottom-color: var(--color6);
 }
 #Home h1 {
     justify-content: center;
@@ -50,6 +63,7 @@ main h3 {
     font-weight: 500;
     margin-top: 50px;
     margin-bottom: 50px;
+    color: var(--color4)
 }
 #Home p {
     justify-content: center;
@@ -57,10 +71,11 @@ main h3 {
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 50px;
+    color: var(--color2);
 }
 #Sobre {
     border-bottom: solid 0.1rem;
-    border-bottom-color: darkmagenta;
+    border-bottom-color: var(--color6);
     margin-top: 50px;
 }
 #Sobre img {
@@ -68,6 +83,7 @@ main h3 {
     margin-left: 50px;
     width: 300px;
     border: solid 0.15rem;
+    border-color: var(--color6);
 }
 .art-content {
     display: inline-flex;
@@ -78,6 +94,7 @@ main h3 {
 .art-content p {
     font-size: 20px;
     font-weight: 300;
+    color: var(--color2);
 }
 .form-content {
     margin-top: 50px;
@@ -87,11 +104,13 @@ main h3 {
     font-weight: 100;
     margin-left: 35px;
     margin-bottom: 15px;
+    color: var(--color3);
 }
 .form-content span {
     font-size: 18px;
     font-weight: 100;
     margin-left: 35px;
+    color: var(--color2);
 }
 .cursos-content {
     margin-top: 50px;
@@ -107,14 +126,17 @@ main h3 {
     font-size: 20px;
     font-weight: 100;
     text-decoration: underline solid 0rem;
+    color: var(--color3);
 }
 .cursos-content p {
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 10px;
+    color: var(--color2);
 }
 .cursos-content span {
     font-size: 16px;
+    color: var(--color2);
 }
 .tools-content {
     margin-top: 50px;
@@ -133,10 +155,13 @@ main h3 {
     font-size: 100px;
     border: solid 0.15rem;
     border-radius: 50%;
+    color: var(--color4);
+    background-color: var(--color);
 }
 .tools-content p {
     font-size: 25px;
     font-weight: 500;
+    color: var(--color3);
 }
 .lang-content {
     margin-top: 50px;
@@ -149,10 +174,11 @@ main h3 {
     font-size: 18px;
     font-weight: 100;
     padding: 10px;
+    color: var(--color2);
 }
 #Projetos {
     border-bottom: solid 0.1rem;
-    border-bottom-color: darkmagenta;
+    border-bottom-color: var(--color6);
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -173,6 +199,7 @@ main h3 {
     margin-bottom: 10px;
     padding-top: 0;
     text-align: start;
+    color: var(--color3);
 }
 #Projetos span {
     font-size: 18px;
@@ -180,6 +207,7 @@ main h3 {
     display: flex;
     padding-top: 30px;
     padding-bottom: 50px;
+    color: var(--color2);
 }
 #Projetos a {
     font-size: 20px;
@@ -187,6 +215,7 @@ main h3 {
     text-decoration: none;
     border: solid 0.15rem;
     border-radius: 10%;
+    color: var(--color4);
 }
 #Contatos {
     margin-top: 50px;
@@ -197,6 +226,7 @@ main h3 {
     font-weight: 500;
     text-align: center;
     padding-bottom: 25px;
+    color: var(--color2);
 }
 .email-content {
     font-size: 18px;
@@ -208,6 +238,7 @@ main h3 {
     border: solid 0.15rem;
     border-radius: 5%;
     text-decoration: none;
+    color: var(--color3);
 }
 .social-content ul {
     display: flex;
@@ -220,10 +251,11 @@ main h3 {
 .social-content a {
     text-decoration: none;
     font-size: 20px;
+    color: var(--color4);
 }
 footer {
     border-top: solid 0.1rem;
-    border-top-color: darkmagenta;
+    border-top-color: var(--color6);
 }
 footer p {
     display: flex;
@@ -231,6 +263,7 @@ footer p {
     font-size: 18px;
     font-weight: 100;
     margin-top: 25px;
+    color: var(--color2);
 }
 .btt-content{
     display: flex;
@@ -240,4 +273,5 @@ footer p {
     font-size: 30px;
     border-radius: 50%;
     border: solid 0.1rem;
+    color: var(--color6);
 }
