@@ -7,7 +7,7 @@
     --color6: #FF79C6;
 }
 body {
-    background-color: var(--color1);
+    background-color: rgba(0, 0, 25, 1);
 }
 header {
     border-bottom: solid 0.1rem;
@@ -90,7 +90,6 @@ main h3 {
     align-items: center;
     gap: 30px;
 }
-
 .art-content p {
     font-size: 20px;
     font-weight: 300;
@@ -113,7 +112,16 @@ main h3 {
     color: var(--color2);
 }
 .cursos-content {
+    display: grid;
     margin-top: 50px;
+}
+.cursos-content li {
+    display: grid;
+    background-color: var(--color1);
+    margin: px;
+    border-radius: 50px;
+    border-left: solid var(--color5);
+    padding: 15px;
 }
 .cursos-content ul {
     list-style: none;
@@ -147,6 +155,11 @@ main h3 {
     justify-content: space-around;
 }
 .tools-content li {
+    display: grid;
+    background-color: var(--color1);
+    padding: 20px 20px 0 20px;
+    border-left: solid var(--color5);
+    border-radius: 50px;
     list-style: none;
     font-weight: 100;
     text-align: center;
@@ -168,6 +181,10 @@ main h3 {
 }
 .lang-content ul {
     margin-top: 50px;
+}
+.lang-content li ::before {
+    content:"|";
+    color: var(--color5);
 }
 .lang-content li {
     list-style: none;
