@@ -6,40 +6,45 @@
     --color5: #50FA7B;
     --color6: #FF79C6;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    background-color: rgba(0, 0, 25, 1);
+    background: linear-gradient(to bottom right, rgba(0,0,25,1), darkmagenta);
 }
 header {
     border-bottom: solid 0.1rem;
     border-bottom-color: var(--color6);
 }
 main h2 {
+    font-size: 45px;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline solid 0rem;
+    text-align: center;
+    padding-bottom: 50px;
+    color: var(--color6);
+}
+main h3 {
     font-size: 35px;
     font-weight: 500;
     font-style: italic;
     text-decoration: underline solid 0rem;
-    margin-left: 25px;
-    margin-bottom: 50px;
-    color: var(--color6);
-}
-main h3 {
-    font-size: 30px;
-    font-weight: 500;
-    font-style: italic;
-    text-decoration: underline solid 0rem;
-    margin-left: 25px;
-    margin-bottom: 35px;
-    margin-top: 75px;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 75px;
     color: var(--color6);
 }
 .nav-content .list-content {
     display: flex;
     justify-content: flex-end;
     gap: 30px;
-    margin-top: 25px;
-    margin-right: 25px;
-    margin-bottom: 25px;
+    padding-right: 25px;
     color: var(--color4);
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .nav-content ul li{
     display: inline-flex;
@@ -55,40 +60,52 @@ main h3 {
 #Home {
     border-bottom: solid 0.1rem;
     border-bottom-color: var(--color6);
+    padding-top: 100px;
+    padding-bottom: 0px;
 }
 #Home h1 {
-    justify-content: center;
     display: flex;
+    justify-content: flex-start;
+    padding-bottom: 25px;
+    padding-left: 75px;
     font-size: 45px;
     font-weight: 500;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    color: var(--color4)
+    color: var(--color2)
 }
 #Home p {
-    justify-content: center;
     display: flex;
+    justify-content: flex-start;
     font-size: 30px;
     font-weight: 500;
-    margin-bottom: 50px;
     color: var(--color2);
+    padding-left: 50px;
 }
 #Sobre {
     border-bottom: solid 0.1rem;
     border-bottom-color: var(--color6);
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 #Sobre img {
     border-radius: 50%;
-    margin-left: 50px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     width: 300px;
     border: solid 0.15rem;
-    border-color: var(--color6);
+    border-color: var(--color1);
 }
 .art-content {
-    display: inline-flex;
+    display:inline-flex;
+    justify-content: space-between;
     align-items: center;
     gap: 30px;
+    background: linear-gradient(to left, rgba(0,0,25,1), darkmagenta);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: solid 0.1rem;
+    border-radius: 10px;
 }
 .art-content p {
     font-size: 20px;
@@ -117,7 +134,7 @@ main h3 {
 }
 .cursos-content li {
     display: grid;
-    background-color: var(--color1);
+    background: linear-gradient(to left, rgba(0,0,25,1), darkmagenta);
     margin: px;
     border-radius: 50px;
     border-left: solid var(--color5);
