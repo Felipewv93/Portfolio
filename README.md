@@ -2,8 +2,6 @@
 
 Portfólio profissional moderno e responsivo, desenvolvido com arquitetura modular para fácil manutenção e personalização.
 
-[Ver Portfólio Online](https://felipewv93.github.io/Portfolio/)
-
 ## ✨ Características
 
 - 🎨 Design moderno e minimalista
