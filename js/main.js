@@ -7,11 +7,11 @@ import { initUtilities } from './utils.js';
 // Inicializar todos os módulos quando o DOM estiver pronto
 document.addEventListener('DOMContentLoaded', () => {
     initNavigation();
-    initContactForm();
     initUtilities();
 });
 
-// Inicializar animações após as seções serem carregadas
+// Inicializar animações e formulário após as seções serem carregadas
 document.addEventListener('sectionsLoaded', () => {
     initScrollAnimations();
+    initContactForm();
 });

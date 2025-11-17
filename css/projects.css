@@ -1,6 +1,6 @@
 /* Projects Section */
 .projects {
-    background: var(--darker-bg);
+    background: transparent;
 }
 
 .projects-grid {

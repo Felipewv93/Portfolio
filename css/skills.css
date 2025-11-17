@@ -1,6 +1,6 @@
 /* Skills Section */
 .skills {
-    background: var(--dark-bg);
+    background: transparent;
 }
 
 .skills-grid {
