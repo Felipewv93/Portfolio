@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Nome - Portfólio</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Devicon - Ícones de tecnologia -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <!-- CSS Modular -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/education.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <div id="navbar-container"></div>
+
+    <!-- Seção Hero -->
+    <div id="hero-container"></div>
+
+    <!-- Seção Sobre -->
+    <div id="about-container"></div>
+
+    <!-- Seção Educação -->
+    <div id="education-container"></div>
+
+    <!-- Seção Projetos -->
+    <div id="projects-container"></div>
+
+    <!-- Seção Habilidades -->
+    <div id="skills-container"></div>
+
+    <!-- Seção Contato -->
+    <div id="contact-container"></div>
+
+    <!-- Footer -->
+    <div id="footer-container"></div>
+
+    <!-- JavaScript Modular -->
+    <script type="module" src="js/main.js"></script>
+    
+    <!-- Carregamento das Seções -->
+    <script>
+        // Função para carregar seções HTML
+        async function loadSection(containerId, filePath) {
+            try {
+                const response = await fetch(filePath);
+                const html = await response.text();
+                document.getElementById(containerId).innerHTML = html;
+            } catch (error) {
+                console.error(`Erro ao carregar ${filePath}:`, error);
+            }
+        }
+
+        // Carregar todas as seções
+        async function loadAllSections() {
+            await loadSection('navbar-container', 'sections/navbar.html');
+            await loadSection('hero-container', 'sections/hero.html');
+            await loadSection('about-container', 'sections/about.html');
+            await loadSection('education-container', 'sections/education.html');
+            await loadSection('projects-container', 'sections/projects.html');
+            await loadSection('skills-container', 'sections/skills.html');
+            await loadSection('contact-container', 'sections/contact.html');
+            await loadSection('footer-container', 'sections/footer.html');
+            
+            // Disparar evento personalizado para indicar que as seções foram carregadas
+            document.dispatchEvent(new Event('sectionsLoaded'));
+        }
+
+        // Iniciar carregamento
+        loadAllSections();
+    </script>
+</body>
+</html>
