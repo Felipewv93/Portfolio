@@ -64,11 +64,13 @@
     color: var(--text-primary);
     font-size: 1.2rem;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
 
 .social-links a:hover {
     background: var(--gradient-1);
     transform: translateY(-5px);
+    text-decoration: none;
 }
 
 /* Responsividade */
