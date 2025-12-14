@@ -4,8 +4,9 @@
 }
 
 .about-content {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    /*display: grid; Voltar ao grid quando tiver uma imagem
+    grid-template-columns: 1fr 2fr;*/
+    display: flex;
     gap: 3rem;
     align-items: center;
 }
@@ -31,7 +32,8 @@
 
 .about-info {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction:column;
     gap: 1rem;
     margin: 2rem 0;
 }
