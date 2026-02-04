@@ -1,4 +1,4 @@
-# 💼 Portfólio Pessoal - Felipe Viana
+# 💼 Portfólio - Felipe Viana
 
 Portfólio profissional moderno e responsivo, desenvolvido com arquitetura modular para fácil manutenção e personalização.
 
