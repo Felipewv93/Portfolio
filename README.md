@@ -1,18 +1,18 @@
-# 💼 Portfólio - Felipe Viana
+# Portfólio - Felipe Viana
 
 Portfólio profissional moderno e responsivo, desenvolvido com arquitetura modular para fácil manutenção e personalização.
 
-## ✨ Características
+## Características
 
-- 🎨 Design moderno e minimalista
-- 📱 Totalmente responsivo (mobile, tablet e desktop)
-- 🎭 Animações suaves ao rolar a página
-- 🌙 Esquema de cores escuro elegante
-- 🧩 Arquitetura modular para fácil manutenção
-- ⚡ Performance otimizada
-- 🎯 SEO friendly
+- Design moderno e minimalista
+- Totalmente responsivo (mobile, tablet e desktop)
+- Animações suaves ao rolar a página
+- Esquema de cores escuro elegante
+- Arquitetura modular para fácil manutenção
+- Performance otimizada
+- SEO friendly
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5** - Estrutura semântica
 - **CSS3** - Estilização modular com variáveis CSS
@@ -20,7 +20,7 @@ Portfólio profissional moderno e responsivo, desenvolvido com arquitetura modul
 - **Font Awesome** - Ícones gerais
 - **Devicon** - Ícones de tecnologias específicas
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 Portfolio/
@@ -53,22 +53,22 @@ Portfolio/
 └── README.md              # Este arquivo
 ```
 
-## 📋 Seções do Portfólio
+## Seções do Portfólio
 
-### 🏠 Home (Hero)
+### Home (Hero)
 Apresentação inicial com nome, título profissional e links para redes sociais.
 
-### 👤 Sobre Mim
+### Sobre Mim
 Descrição profissional, foto, informações de localização e formação, com opção de download de currículo.
 
-### 🎓 Educação
+### Educação
 - **Formação Acadêmica**: Cursos de graduação e técnicos
 - **Cursos e Certificações**: Bootcamps, certificações e cursos complementares
 
-### 💼 Projetos
+### Projetos
 Galeria de projetos desenvolvidos com imagens, descrições, tecnologias utilizadas e links para demo/repositório.
 
-### 🛠️ Habilidades
+### Habilidades
 Organizada por categorias:
 - Frontend (HTML5, CSS3, JavaScript, Tailwind CSS)
 - Backend (Python, SQL)
@@ -76,28 +76,28 @@ Organizada por categorias:
 - Mobile (Android Studio, Kotlin)
 - Análise de Dados (Power BI, Excel)
 
-### 📧 Contato
+### Contato
 Formulário de contato e informações de email, telefone e localização.
 
 
-## 📱 Responsividade
+## Responsividade
 
 O portfólio é totalmente responsivo e se adapta a:
-- 📱 Mobile (até 768px)
-- 📱 Tablet (768px - 1024px)
-- 💻 Desktop (1024px+)
+- Mobile (até 768px)
+- Tablet (768px - 1024px)
+- Desktop (1024px+)
 
-## ⚡ Performance
+## Performance
 
-- ✅ Carregamento assíncrono de seções
-- ✅ CSS e JS modulares
-- ✅ Animações otimizadas com Intersection Observer
-- ✅ Uso de CDN para bibliotecas externas
+- Carregamento assíncrono de seções
+- CSS e JS modulares
+- Animações otimizadas com Intersection Observer
+- Uso de CDN para bibliotecas externas
 
-## 👨‍💻 Autor
+## Autor
 
 **Felipe Viana**
 
 ---
 
-⭐ Se você gostou deste projeto, deixe uma estrela no repositório!
+Se você gostou deste projeto, deixe uma estrela no repositório!
