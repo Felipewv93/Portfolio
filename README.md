@@ -59,7 +59,7 @@ Portfolio/
 Apresentação inicial com nome, título profissional e links para redes sociais.
 
 ### Sobre Mim
-Descrição profissional, foto, informações de localização e formação, com opção de download de currículo.
+Descrição profissional, informações de localização e formação, com opção de download de currículo.
 
 ### Educação
 - **Formação Acadêmica**: Cursos de graduação e técnicos
